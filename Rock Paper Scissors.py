@@ -28,7 +28,7 @@ ascii_arts = [rock, paper, scissors]
 
 print("Welcome to the Rock Paper Scissors game!")
 
-choices =  ["Rock", "Paper", "Scissors"]
+choices = ["Rock", "Paper", "Scissors"]
 
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: \n"))
 computer_choice = randint(0,2)
